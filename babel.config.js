@@ -1,0 +1,8 @@
+module.exports = function(api) {
+  api.cache(true);
+  return {
+    presets: ['-preset-expo'],
+    presets: ['module:metro-react-native-babel-preset'],
+    plugins: ['module:react-native-dotenv']
+  };
+};
